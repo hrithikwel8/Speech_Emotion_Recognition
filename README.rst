@@ -1,6 +1,10 @@
 ==========================
 Speech emotion Recognition
 ==========================
+Speech Emotion Recognition (SER), is the act of attempting to recognize human emotion and affective states from speech.
+Emotion recognition is the part of speech recognition which is gaining more popularity and need for it increases enormously.
+It is used in call center for classifying calls according to emotions and can be used as the performance parameter for conversational analysis thus identifying the unsatisfied customer, customer satisfaction and so on for helping companies improving their services.
+It can also be used in-car board system based on information of the mental state of the driver can be provided to the system to initiate his/her safety preventing accidents to happen.
 
 
 .. image:: https://img.shields.io/pypi/v/SER.svg
@@ -18,7 +22,10 @@ Speech emotion Recognition
 
 Verbal Communication Quality Monitoring & Feedback System
 --------------------------------------------------------------------------------
-
+Verbal communication include sounds, words, language, and speech. Speaking is an effective way of communicating and helps in expressing our emotions in words.
+Building a real-time demo of quality monitoring of verbal communication & feedback system with the help of speech emotion recognition(deep learning) & streamlit.
+Speech is the most natural way of expressing ourselves as humans. It is only natural then to extend this communication medium to computer applications.
+We define speech emotion recognition (SER) systems as a collection of methodologies that process and classify speech signals to detect the embedded emotions.
 
 Datasets:
 ------------
@@ -36,8 +43,30 @@ This dataset contains around 500 audio files recorded by 4 different male actors
 The first two characters of the file name correspond to the different emotions that the portray.
 
 
+Emotions in Datasets:
+----------------------------
+● Neutral
+● Happy
+● Sad
+● Angry
+● Fear
+● Disgust
+● Surprise
+
+
+Data Augmentation:
+--------------------------
+Data augmentation is the process by which we create new synthetic data samples by adding small perturbations on our initial training set.
+It is a key ingredient of the state-of-the-art systems for speech recognition.
+Some ways for data augmentation in sound data: -
+● Noise injection 
+● Stretching
+● Shifting
+● Pitching
+
+
 Feature Extraction
---------
+------------------------
 Extraction of features is a very important part in analyzing and finding relations between different things.
 As we already know that the data provided of audio cannot be understood by the models directly so we need to convert them into an understandable format for which feature extraction is used.
 
@@ -54,6 +83,15 @@ RMS is calculated by adding the squares of each sample, dividing this by the tot
 The Mel-frequency cepstrum different from cepstrum in the frequency bands which are equally divided on the Mel scale.
 MFCCs are rigorously used as features in speech recognition systems.
 Mel Frequency Cepstral Coefficients form a cepstral representation where the frequency bands are not linear but distributed according to the Mel-scale.
+
+
+Conclusion
+---------------
+Deep learning can be used in Verbal Communication Quality Monitoring & Feedback System to process audio data in real time.
+With speech emotion recognition, It can identify or predict speech emotion after recording audio or drag & drop audio files.
+Speech emotion recognition system can identify the mental state of user, conversational analysis to improve customer satisfaction.
+Overall achieved 92% accuracy on test data but we can improve it more by adding more audio data, applying more augmentation techniques and using other feature extraction methods.
+
 
 
 * Free software: MIT license
