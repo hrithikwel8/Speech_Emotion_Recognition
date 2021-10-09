@@ -22,7 +22,8 @@ Verbal Communication Quality Monitoring _ Feedback System
 * Free software: MIT license
 * Documentation: https://SER.readthedocs.io.
 
-Datasets:
+**Datasets:**
+
 1. Ryerson Audio-Visual Database of Emotional Speech (Ravdess):
 
 This dataset includes around 1500 audio file input from 24 different actors.
@@ -36,7 +37,7 @@ This dataset contains around 500 audio files recorded by 4 different male actors
 The first two characters of the file name correspond to the different emotions that the portray.
 
 
-Features
+Feature Extraction
 --------
 Extraction of features is a very important part in analyzing and finding relations between different things.
 As we already know that the data provided of audio cannot be understood by the models directly so we need to convert them into an understandable format for which feature extraction is used.
@@ -47,7 +48,8 @@ Used just 3 main features [ZCR, RMS and MFCC] for this task after experimenting 
 In other words, it is the number of times the signal changes value, from positive to negative and vice versa, divided by the length of the frame.
 It’s aims to study the rate in which a signal’s amplitude changes sign within each frame.
 
-2. RMS: It extracts the Root Mean Square (RMS) from a set of samples. RMS is calculated by adding the squares of each sample, dividing this by the total number of samples in the window, and finding the square root of the result.
+2. RMS: It extracts the Root Mean Square (RMS) from a set of samples.
+RMS is calculated by adding the squares of each sample, dividing this by the total number of samples in the window, and finding the square root of the result.
 
 3. MFCC: Mel-frequency Cepstral coefficients (MFCCs) are the signal coefficients that are collected to forms MFC.
 The Mel-frequency cepstrum different from cepstrum in the frequency bands which are equally divided on the Mel scale.
