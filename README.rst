@@ -16,13 +16,12 @@ Speech emotion Recognition
 
 
 
-Verbal Communication Quality Monitoring _ Feedback System
+Verbal Communication Quality Monitoring & Feedback System
+--------------------------------------------------------------------------------
 
 
-* Free software: MIT license
-* Documentation: https://SER.readthedocs.io.
-
-**Datasets:**
+Datasets:
+------------
 
 1. Ryerson Audio-Visual Database of Emotional Speech (Ravdess):
 
@@ -55,6 +54,10 @@ RMS is calculated by adding the squares of each sample, dividing this by the tot
 The Mel-frequency cepstrum different from cepstrum in the frequency bands which are equally divided on the Mel scale.
 MFCCs are rigorously used as features in speech recognition systems.
 Mel Frequency Cepstral Coefficients form a cepstral representation where the frequency bands are not linear but distributed according to the Mel-scale.
+
+
+* Free software: MIT license
+* Documentation: https://SER.readthedocs.io.
 
 
 Credits
