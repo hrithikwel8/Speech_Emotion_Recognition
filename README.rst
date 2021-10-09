@@ -1,12 +1,3 @@
-==========================
-Speech emotion Recognition
-==========================
-Speech Emotion Recognition (SER), is the act of attempting to recognize human emotion and affective states from speech.
-Emotion recognition is the part of speech recognition which is gaining more popularity and need for it increases enormously.
-It is used in call center for classifying calls according to emotions and can be used as the performance parameter for conversational analysis thus identifying the unsatisfied customer, customer satisfaction and so on for helping companies improving their services.
-It can also be used in-car board system based on information of the mental state of the driver can be provided to the system to initiate his/her safety preventing accidents to happen.
-
-
 .. image:: https://img.shields.io/pypi/v/SER.svg
         :target: https://pypi.python.org/pypi/SER
 
@@ -17,7 +8,13 @@ It can also be used in-car board system based on information of the mental state
         :target: https://SER.readthedocs.io/en/latest/?version=latest
         :alt: Documentation Status
 
-
+==========================
+Speech emotion Recognition
+==========================
+Speech Emotion Recognition (SER), is the act of attempting to recognize human emotion and affective states from speech.
+Emotion recognition is the part of speech recognition which is gaining more popularity and need for it increases enormously.
+It is used in call center for classifying calls according to emotions and can be used as the performance parameter for conversational analysis thus identifying the unsatisfied customer, customer satisfaction and so on for helping companies improving their services.
+It can also be used in-car board system based on information of the mental state of the driver can be provided to the system to initiate his/her safety preventing accidents to happen.
 
 
 Verbal Communication Quality Monitoring & Feedback System
