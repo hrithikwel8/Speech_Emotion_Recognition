@@ -25,8 +25,9 @@ Verbal Communication Quality Monitoring _ Feedback System
 
 Features
 --------
-
-* TODO
+ZCR
+MFCCs
+RMS
 
 Credits
 -------
