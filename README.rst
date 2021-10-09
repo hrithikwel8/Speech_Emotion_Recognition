@@ -9,7 +9,7 @@
         :alt: Documentation Status
 
 ==========================
-Speech emotion Recognition
+Speech Emotion Recognition
 ==========================
 Speech Emotion Recognition (SER), is the act of attempting to recognize human emotion and affective states from speech.
 Emotion recognition is the part of speech recognition which is gaining more popularity and need for it increases enormously.
@@ -89,6 +89,9 @@ With speech emotion recognition, It can identify or predict speech emotion after
 Speech emotion recognition system can identify the mental state of user, conversational analysis to improve customer satisfaction.
 Overall achieved 92% accuracy on test data but we can improve it more by adding more audio data, applying more augmentation techniques and using other feature extraction methods.
 
+Run the command for Demo Web App.
+------------------------------------------------
+streamlit run app.py
 
 
 * Free software: MIT license
