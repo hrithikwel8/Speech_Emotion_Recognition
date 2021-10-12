@@ -11,8 +11,8 @@ from PIL import Image
 # from sklearn.preprocessing import normalize
 # from scipy.io.wavfile import read, write
 import base64
-import pyaudio
-import wave
+# import pyaudio
+# import wave
 
 #load models
 model = load_model("finalmodel.hdf5")
