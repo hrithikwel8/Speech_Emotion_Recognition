@@ -2,7 +2,6 @@ import time, os
 import streamlit as st
 import pandas as pd
 import numpy as np
-import matplotlib.pyplot as plt
 from datetime import datetime
 from PIL import Image
 from tensorflow.keras.models import load_model
