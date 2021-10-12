@@ -1,6 +1,5 @@
 import time, os
 import streamlit as st
-# import cv2
 import pandas as pd
 import numpy as np
 import librosa, librosa.display
@@ -160,8 +159,7 @@ def main():
     side_img = Image.open("e.jpg")
     with st.sidebar:
         st.image(side_img, width=300)
-    # st.sidebar.title("Duration")
-    # duration = st.sidebar.slider("Recording duration", 3.0, 4.0, 3.0)
+
 
     if audio_file is not None:
         st.markdown("## Analyzing...")
