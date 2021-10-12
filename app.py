@@ -5,11 +5,11 @@ import numpy as np
 from datetime import datetime
 from PIL import Image
 # from tensorflow.keras.models import load_model
-from sklearn.preprocessing import LabelEncoder, StandardScaler
-from scipy.io import wavfile
-import scipy
-from sklearn.preprocessing import normalize
-from scipy.io.wavfile import read, write
+# from sklearn.preprocessing import LabelEncoder, StandardScaler
+# from scipy.io import wavfile
+# import scipy
+# from sklearn.preprocessing import normalize
+# from scipy.io.wavfile import read, write
 import base64
 import pyaudio
 import wave
