@@ -2,20 +2,19 @@ import time, os
 import streamlit as st
 import pandas as pd
 import numpy as np
+import librosa, librosa.display
+import matplotlib.pyplot as plt
 from datetime import datetime
 from PIL import Image
-from keras import models
-from tensorflow.python import tf2
-
-# from tensorflow.keras.models import load_model
-# from sklearn.preprocessing import LabelEncoder, StandardScaler
-# from scipy.io import wavfile
-# import scipy
-# from sklearn.preprocessing import normalize
-# from scipy.io.wavfile import read, write
+from tensorflow.keras.models import load_model
+from sklearn.preprocessing import LabelEncoder, StandardScaler
+from scipy.io import wavfile
+import scipy
+from sklearn.preprocessing import normalize
+from scipy.io.wavfile import read, write
 import base64
-# import pyaudio
-# import wave
+import pyaudio
+import wave
 
 #load models
 model = load_model("finalmodel.hdf5")
