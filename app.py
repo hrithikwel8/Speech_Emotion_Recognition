@@ -22,7 +22,7 @@ model = load_model("finalmodel.hdf5")
 # constants
 starttime = datetime.now()
 
-
+#features extraction
 def zcr(data, frame_length=2048, hop_length=512):
     zcr = librosa.feature.zero_crossing_rate(y=data, frame_length=frame_length, hop_length=hop_length)
     return np.squeeze(zcr)
@@ -140,6 +140,7 @@ def main():
         unsafe_allow_html=True,
     )
 
+    #use the drag and drop for predicting speech wav file.
     audio_file = st.file_uploader("Upload audio file for Emotion Prediction", type=['wav'])
     if audio_file is not None:
         if not os.path.exists("audio"):
@@ -184,6 +185,7 @@ def main():
         st.write("Speech Emotion: ", emotion_list[emotion_index])
     st.write("\n")
 
+    #recording button and their working
     if st.button("Start Recording for Emotion Prediction"):
         CHUNK = 1024 
         FORMAT = pyaudio.paInt16 #paInt8
@@ -238,7 +240,7 @@ def main():
         st.write("Emotion Prediction: ", emotion_list[emotion_index])
     
 
-
+    #list of emotions
     st.sidebar.subheader("List of Emotions:")
     st.sidebar.subheader(" 1. Angry😡 ")
     st.sidebar.subheader(" 2. Disgust😖 ")
