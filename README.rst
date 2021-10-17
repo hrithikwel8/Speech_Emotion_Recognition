@@ -91,7 +91,6 @@ Overall achieved 92% accuracy on test data but we can improve it more by adding 
 
 
 Run the command for Demo Web App.
-
 ```
 streamlit run app.py
 ```
