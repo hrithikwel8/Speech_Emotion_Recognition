@@ -89,9 +89,12 @@ With speech emotion recognition, It can identify or predict speech emotion after
 Speech emotion recognition system can identify the mental state of user, conversational analysis to improve customer satisfaction.
 Overall achieved 92% accuracy on test data but we can improve it more by adding more audio data, applying more augmentation techniques and using other feature extraction methods.
 
+
 Run the command for Demo Web App.
-------------------------------------------------
+
+```
 streamlit run app.py
+```
 
 
 * Free software: MIT license
