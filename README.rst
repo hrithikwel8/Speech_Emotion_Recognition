@@ -90,10 +90,11 @@ Speech emotion recognition system can identify the mental state of user, convers
 Overall achieved 92% accuracy on test data but we can improve it more by adding more audio data, applying more augmentation techniques and using other feature extraction methods.
 
 
-Run the command for Demo Web App.
-```
+Run the command for Demo Web App
+--------------------------------
+``
 streamlit run app.py
-```
+``
 
 
 * Free software: MIT license
